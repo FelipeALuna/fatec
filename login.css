@@ -5,8 +5,11 @@
 }
 
 .login{
-    margin:300px;
+    
+
+    margin:300px auto;
     flex-wrap: wrap;
+    width: 450px;
     
 }
 .login-form{
@@ -22,15 +25,18 @@
 
 }
 
-.login-form input,.login-form button {
+.login-form .login-input,.login-form button {
     margin:12px;
     flex-wrap: wrap;
     width: 100%;
 
 }
+.login-form input{
+    margin:12px;
+}
 
 .login-form input{
-    padding:5px;
+    padding:8px;
     flex-wrap: wrap;
 }
 .form-checkbox{
