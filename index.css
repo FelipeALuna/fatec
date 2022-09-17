@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
+    max-width:100%;
 }
 
 header {
@@ -10,6 +11,9 @@ header {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     align-items: flex-end;
+    width: 100vw;
+    position:fixed;
+    top: 0;
 
 }
 
@@ -48,13 +52,14 @@ header {
     padding: 0 5px;
     margin: 0 5px;
     cursor: pointer;
-
+    
 }
 
 .navbar ul li:hover {
     opacity: 0.8;
     display: flex;
     align-items: center;
+    
 }
 
 .navbar ul a {
@@ -67,6 +72,8 @@ header {
     line-height: 27px;
     text-transform: uppercase;
     color: #FFFFFF;
+    
+    
 }
 
 section {
@@ -74,7 +81,7 @@ section {
 }
 
 .top-sb {
-    margin-top: 80px;
+    margin-top: 200px;
 
 }
 
@@ -131,10 +138,13 @@ section {
     transform: scale(1.1);
 }
 
-.card-sb img {
-    width: 240px;
-    height: 220px;
-
+.card-sb div.img {
+    position:relative;
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
 
 }
 
@@ -161,8 +171,12 @@ section {
 }
 
 footer {
+    width: 100%;
     background: #FFBE51;
     padding: 30px;
+  
+    
+    
 }
 
 .ft-elements {
@@ -193,3 +207,68 @@ line-height: 25px;
 
 color: #000000;
 }
+
+.div-sb-bottom{
+    display:flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.sb-bottom-text{
+    align-items:center;
+    padding: 35px ;
+    width: 50%;
+}
+.div-sb-bottom h2{
+    color: #757575;
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 37px;
+display: flex;
+align-items: center;
+}
+.div-sb-bottom h3{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #757575;
+display: flex;
+align-items: center;
+}
+
+@media(max-width:1200px){
+    .ft-map{
+        display: none;
+    }
+}
+
+
+
+.div-fita{
+    position: absolute;
+    bottom: 0px;
+}
+.fita{	
+	background: #e51c46;
+	position: absolute;
+    opacity: 0.8;
+    bottom:0;
+	margin:20px auto;
+	width: 240px;
+	color:#fff;
+	line-height:40px;
+   height:40px;
+	font-size: 16px;
+	text-align: center;
+  font-weight:700;
+  text-transform: uppercase;
+}
+
+.opacity{
+    opacity: 0.5;
+
+}
+
