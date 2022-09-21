@@ -1,0 +1,27 @@
+.list{
+    margin: 160px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    margin: 160px;
+}
+.item-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.text{
+    width: 50%;
+}
+.card-sb div.img{
+    position: inherit;
+}
