@@ -18,10 +18,22 @@ section{
     align-items: center;
     width: 100%;
     margin: 0 auto;
+    border-bottom: 2px solid #c6c6c6;
 }
 .text{
     width: 50%;
 }
 .card-sb div.img{
     position: inherit;
+}
+
+button{
+    background-color:#FFC107;
+    color:#ffffff;
+    border: #FFC107;
+    padding:5px;
+    width: 100%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    margin-top: 15px;
 }
