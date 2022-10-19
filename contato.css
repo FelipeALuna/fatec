@@ -1,0 +1,35 @@
+.contato{
+    display:flex;
+    align-items: center;
+    width: 100%;
+   
+    padding: 0;
+}
+.contato-form{
+    height: 600px;
+    width: 50%;
+    margin:0;
+    box-shadow: rgba(127, 127, 143, 0.2) 0px 7px 29px 0px;
+    background-color: #2f2e41ee;
+    color: #dcdaff;
+    height: 100%;
+    padding: 70px;
+    border-radius: 0 5px 5px 0;
+}
+.contato-img{
+    width: 50%;
+    height: 550px;
+    max-height:100%;
+    padding: 50px;
+    background-image: url("./assets/undraw_modern_design_re_dlp8.svg");
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px ;
+    background-position: center;
+    background-size: auto;
+    margin: 0;
+    max-height: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contato-img img{
+    width: 100%;
+}
